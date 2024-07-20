@@ -575,9 +575,7 @@ animation: left 2s ease forwards;
  }
 
  /* -------------FOOTER-------------- */
-.footer{
-  background-color: #192a56;
-}
+
  .footer .box-container{
   display: grid;
   grid-template-columns: repeat(auto-fit,minmax(25rem, 1fr));
@@ -585,21 +583,46 @@ animation: left 2s ease forwards;
 
 
  }
+ .footer .box-container .box{
+  margin-right:10px ;
+ }
+ .footer .box-container .box1{
+  margin-right:-40px ;
+ }
+
 
  .footer .box-container .box h3{
   padding: .5rem 0;
   font-size: 2.5rem;
-  color: var(--black);
+  color: var(--green);
  }
 
  .footer .box-container .box a{
   display: block;
   padding: .5rem 0;
-  font-size: 2rem;
-  color: var(--light-color);
+  font-size: 1.5rem;
+  color: #eee;
  }
 
  .footer .box-container .box a:hover{
+   color: var(--green);
+   text-decoration: underline;
+ }
+ 
+ .footer .box-container .box1 h3{
+  padding: .5rem 0;
+  font-size: 2.5rem;
+  color: var(--green);
+ }
+
+ .footer .box-container .box1 a{
+  display: block;
+  padding: .5rem 0;
+  font-size: 1.5rem;
+  color: #eee;
+ }
+
+ .footer .box-container .box1 a:hover{
    color: var(--green);
    text-decoration: underline;
  }
@@ -608,7 +631,7 @@ animation: left 2s ease forwards;
   text-align: center;
   border-top: .1rem solid rgba(0,0,0,0.1);
   font-size: 2rem;
-  color: var(--black);
+  color: #fff;
   padding: .5rem;
   padding-top: 1.5rem;
   margin-top: 1.5rem;
@@ -655,6 +678,9 @@ animation: left 2s ease forwards;
   }
   .order form .inputBox .input{
     width: 100%;
+   }
+   .footer .box-container .box1 a{
+   margin-right: -10rem;
    }
 }
 
