@@ -413,7 +413,7 @@ padding-top: 9rem;
 
 .menu .box-containor .box{
   background: #fff;
-  border: .1rem solid rgba(0,0,0,0.2);
+  border: .1rem solid ;
   border-radius: .5rem;
   box-shadow: var(--box-shadow);
 
@@ -629,7 +629,7 @@ animation: left 2s ease forwards;
 
 .footer .credit{
   text-align: center;
-  border-top: .1rem solid rgba(0,0,0,0.1);
+  border-top: .1rem solid rgba(235, 227, 227, 0.1);
   font-size: 2rem;
   color: #fff;
   padding: .5rem;
